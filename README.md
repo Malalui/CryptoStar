@@ -5,9 +5,11 @@
 This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
 
 ### Details
-Name: Star collection
-Symbol: STR
-Contract address: 0x1DbFcCA37c1E1F373838B9A99bD8F32042C4233a (Rinkeby)
+**Name:** Star collection
+
+**Symbol:** STR
+
+**Contract address:** 0x62E8569c5dC1cE7786DdB26f363695ec65af53e5 (Rinkeby)
 
 ### Dependencies
 For this project, you will need to have:
