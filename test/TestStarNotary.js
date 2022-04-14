@@ -67,6 +67,7 @@ it('lets user2 buy a star and decreases its balance in ether', async() => {
     await instance.putStarUpForSale(starId, starPrice, {from: user1});
 
     // I changed this test because the current version of the compiler doesnt accept the gasPrice to be 0
+    // I got this code from this answer: https://knowledge.udacity.com/questions/791750
     const balanceOfUser2BeforeTransaction = web3.utils.toBN(await web3.eth.getBalance(user2));
     const txInfo = await instance.buyStar(starId, {from: user2, value: balance});
     const balanceAfterUser2BuysStar = web3.utils.toBN(await web3.eth.getBalance(user2));    
